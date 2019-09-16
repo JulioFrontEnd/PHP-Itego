@@ -1,5 +1,6 @@
 <?php 
-	define("DOMINIO",$_SERVER["SERVER_NAME"]);
+	$project = "php-itego";
+	define("DOMINIO","http://".$_SERVER["SERVER_NAME"]."/".$project);
 
 	function titleMenu($Titulo)
 	{

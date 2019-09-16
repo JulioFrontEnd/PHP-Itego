@@ -18,8 +18,24 @@
     <input type="password" name="senha" class="form-control" id="senha" placeholder="Password">
   </div>
 
+  <div class="form-group">
+    <label for="endereco">Digite seu Endereço: </label>
+    <input type="text" name="endereco" class="form-control" id="endereco"  placeholder="Digite seu Endereço">
+  </div>
+
+  <div class="form-group">
+    <label for="endereco">Serviços de interesse: </label>
+    <select name="assunto" class="form-control" id="endereco">
+    	<option>Deisgn</option>
+    	<option>Programação</option>
+    	<option>Front End</option>
+    	<option>Banco de Dados</option>
+    </select>
+  </div>
+
+  <p class="text-primary">Deseja ser notificado ?</p>
+
   <div class="form-group form-check">
-  	<h2 class="text-primary">Deseja ser notificado ?</h2>
     <input type="radio" class="form-check-input" id="checkYes" name="notification" value="sim">
     <label class="form-check-label" for="checkYes">Sim</label><br>
     <input type="radio" class="form-check-input" id="checkNo" name="notification" value="não">
