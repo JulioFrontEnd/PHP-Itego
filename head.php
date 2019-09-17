@@ -18,7 +18,7 @@
 
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand col-7 col-xl-9" href="#">JULIO | UI DESIGN</a>
+  <a class="navbar-brand col-7 col-lg-8" href="#">JULIO | UI DESIGN</a>
 
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -28,16 +28,16 @@
   <!-- Navbar links -->
   <div class="collapse navbar-collapse m-auto" id="collapsibleNavbar">
     <ul class="navbar-nav">
-      <li class="nav-item">
+      <li class="nav-item menu-item">
         <a class="nav-link" href="<?= DOMINIO ?>/index.php">Home</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item menu-item">
         <a class="nav-link" href="<?= DOMINIO ?>/contato.php">Contato</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item menu-item">
         <a class="nav-link" href="<?= DOMINIO ?>/servico.php">Serviços</a>
       </li> 
-      <li class="nav-item">
+      <li class="nav-item menu-item">
         <a class="nav-link" href="<?= DOMINIO ?>/quemSomos.php">Sobre mim</a>
       </li> 
     </ul>
