@@ -16,9 +16,9 @@
 
 
 
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand col-9" href="#">JULIO | UI DESIGN</a>
+  <a class="navbar-brand col-7 col-xl-9" href="#">JULIO | UI DESIGN</a>
 
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

@@ -17,19 +17,37 @@ body, html {
   position: relative;
 }
 
+/* For index.php content */
+
 .after{
 	height: 100%;
 	width: 100%;
 	top: 0;
 	right: 0;
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.65);
 	z-index: 10;
 }
 
 .title{
 	position: absolute;
-	left: 70%;
+	left: 20%;
 	transform: translate(-50%,0);
 	top: 4%;
 	z-index: 100;
+}
+
+@media (max-width: 768px) {
+	.title{
+		left: 40%;
+	}
+}
+
+@media (max-width: 992px) {
+	.title{
+		left: 30%;
+	}
+}
+
+@media (max-width: 1200px) {
+
 }
