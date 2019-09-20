@@ -15,9 +15,11 @@
 		<p class="lead text-light value">DESENHISTA</p>
 		<p class="lead text-light value">CONCEPT ARTIST</p>
 	</div>
+
+	<div class="image">
+		<img src="grouproot.png" style="width: 100%">
+	</div>
 </div>
-
-
 
 
 <?php 

@@ -1,5 +1,5 @@
 <?php 
-	$title = "JULIO UI | WEBSITE";
+	$title = "JULIO UI | CONTACT";
 	require_once "head.php";
 	titleMenu($title);
 ?>
