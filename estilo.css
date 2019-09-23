@@ -13,6 +13,9 @@ body, html {
   /* Full height */
   height: 100%; 
 
+  /* filter: grayscale(100%); */
+
+
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -21,7 +24,6 @@ body, html {
 
   position: relative;
 }
-
 
 
 .after{
